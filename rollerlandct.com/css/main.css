@@ -1,0 +1,56 @@
+/* Roller Land CT - Custom Styles (complementing Tailwind) */
+
+:root {
+  --bg: #0a0a12;
+  --text: #ffffff;
+  --neon-blue: #47c2ff;
+  --neon-pink: #ff6f9c;
+  --muted: #c7cbdb;
+  --border: rgba(255,255,255,0.08);
+}
+
+/* Custom background gradients */
+body {
+  background: radial-gradient(circle at 20% 20%, rgba(255,111,60,0.08), transparent 35%),
+              radial-gradient(circle at 80% 0%, rgba(71,194,255,0.08), transparent 35%),
+              var(--bg);
+}
+
+/* Custom font styles that need specific values */
+.hero-subtitle {
+  word-spacing: 0.5em;
+}
+
+.hero-title {
+  font-family: "Archivo Black", Sans-serif;
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: 90px;
+  line-height: 1em;
+  letter-spacing: 0px;
+  word-spacing: 0em;
+}
+
+.hero-location {
+  font-family: "Luckiest Guy", Sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 38px;
+  letter-spacing: 1.5px;
+  word-spacing: 0em;
+  color: #dc5c9e;
+}
+
+/* Ensure images maintain aspect ratio */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
