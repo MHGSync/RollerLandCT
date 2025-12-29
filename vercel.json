@@ -1,5 +1,12 @@
 {
   "outputDirectory": "rollerlandct.com",
-  "installCommand": null
+  "installCommand": null,
+  "redirects": [
+    {
+      "source": "/waiver",
+      "destination": "http://rollerland.jingjianx.vip/protocol/agreement/?agreementId=bb5c00c8-25ab-4375-9f10-c2ae515653ab",
+      "permanent": false
+    }
+  ]
 }
 
